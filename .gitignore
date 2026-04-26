@@ -1,4 +1,11 @@
-index.html
-script.js
-styles.css
-assets/
+# 로컬 Flutter/Puro 환경 파일 제외
+.puro/
+**/.puro/
+
+# Node.js 의존성 및 환경 변수 파일 제외
+**/node_modules/
+**/.env
+**/.env.*
+
+# 공통 빌드 산출물 제외
+**/build/
